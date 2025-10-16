@@ -12,7 +12,7 @@ final class TournoisController extends AbstractController
     public function index(): Response
     {
         return $this->render('tournois/index.html.twig', [
-            'controller_name' => 'TournoisController',
+            'controller_name' => 'TournoisController', 'menuActif' => 'Jeux'
         ]);
     }
 }
