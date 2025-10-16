@@ -88,14 +88,12 @@ déconnecter</a></li>
  
 **************************************************************************************
 ********************************************************************* -->
- <section id="main-content">
-    <section class="wrapper">
-        <div class="container-fluid">
-            {% block central %}
-            {% endblock %}
-        </div>
- </section>
- </section>
+<section id="main-content">
+				<section class="wrapper">
+					<div class="container-fluid"> {% block central %}{% endblock %}{% block body %}{% endblock %}
+						</div>
+					</section>
+				</section>
  <!-- /MAIN CONTENT -->
  <!--main content end-->
  <!--footer start-->
